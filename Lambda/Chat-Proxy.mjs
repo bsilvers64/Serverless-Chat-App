@@ -52,7 +52,7 @@ async function loadMessages(id) {
 
 async function loadConversationDetail(id, messages) {
     const paginator = paginateQuery({client: dbClient}, {
-        TableName: 'Chat-Conversations',
+        TableName: 'Chat-conversations',
         Select: 'ALL_ATTRIBUTES',
         KeyConditionExpression: 'ConversationId = :id',
         ExpressionAttributeValues: {':id': {S: id}}
