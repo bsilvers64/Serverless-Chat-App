@@ -1,4 +1,6 @@
-1. 1. 1. First we created an S3 bucket on aws, after creating a free-tier account. We upload our website files to it, and make all objects/files publicly readable. the ones which we want to serve as our static website. Then we enable the static hosting in the properties of our bucket. This gives us an endpoint to reach that website from any browser.
+# serverless chat app
+ 
+ 1. First we created an S3 bucket on aws, after creating a free-tier account. We upload our website files to it, and make all objects/files publicly readable. the ones which we want to serve as our static website. Then we enable the static hosting in the properties of our bucket. This gives us an endpoint to reach that website from any browser.
 
       2. S3 - simple storage service, key-blob store, reliable, consistent. It's not a file system.\
          AWS policies define access control for:
