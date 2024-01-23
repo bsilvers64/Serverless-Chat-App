@@ -1,4 +1,21 @@
 # serverless chat app
+
+we will use the following aws services -
+
+- **S3** (Simple Storage Service) - For storing static HTML and vending it to your users' browsers
+
+- **Lambda** - For executing logic in the cloud for storing and retrieving data in your application
+
+- **IAM** (Identity and Access Management) - For securing access to your services
+
+- **API Gateway** - For presenting a well-modeled API to your clients and automatically generating client-side code to communicate with it
+
+- **DynamoDB** - For quickly storing and retrieving data at scale
+
+- **Cognito** - For managing users, account creation, and logins securely
+
+
+### development walkthrough -
  
  1. First we created an S3 bucket on aws, after creating a free-tier account. We upload our website files to it, and make all objects/files publicly readable. the ones which we want to serve as our static website. Then we enable the static hosting in the properties of our bucket. This gives us an endpoint to reach that website from any browser.
 
